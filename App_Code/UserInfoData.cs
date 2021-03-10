@@ -14,7 +14,7 @@ namespace App_Code
         {
 
         }
-        public void InsertUserInfo(UserInfo newUser)
+       // public void InsertUserInfo(UserInfo newUser)
         {
             SqlConnection cnn = new SqlConnection(strConnection);
             string SQLInsert = "Insert UserInfo values(@UserName,@Password,@Birthdate," +
@@ -30,7 +30,7 @@ namespace App_Code
                 cnn.Open();
                 cmd.ExecuteNonQuery();
             }
-            catch
+        //    catch
             {
                 throw new Exception("Error");
             }
