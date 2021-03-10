@@ -87,7 +87,7 @@ namespace App_Code
         public List<UserInfo> GetUserList()
         {
             List<UserInfo> data = new List<UserInfo>();
-            string SQL = "Select * From UserInfo";
+            string SQL = "Select  From UserInfo";
             SqlConnection cnn = new SqlConnection(strConnection);
             SqlCommand cmd = new SqlCommand(SQL, cnn);
             cnn.Open();
