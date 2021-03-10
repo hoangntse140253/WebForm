@@ -1,9 +1,9 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="MaintainUser.aspx.cs" Inherits="App_Code.WebForm1" %>
 
 <!DOCTYPE html>
-
+ <html lang"en" class"while-page sidebar-page">
 <html xmlns="http://www.w3.org/1999/xhtml">
-  <html lang"en" class"while-page sidebar-page">
+ 
 <head runat="server">
     <title></title>
 </head>
