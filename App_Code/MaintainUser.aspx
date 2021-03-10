@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
- <httl lang"en" class"while-page sidebar-page">
+ // <httl lang"en" class"while-page sidebar-page">
 <head runat="server">
     <title></title>
 </head>
