@@ -22,7 +22,7 @@
             <asp:Button ID="btnUpdate" runat="server" OnClick="btnUpdate_Click" Text="Update" />
             <asp:Button ID="btnDelete" runat="server" OnClick="btnDelete_Click" Text="Delete" />
             <br />
-         //   <asp:GridView ID="gvUserInfoList" runat="server" AutoGenerateSelectButton="True" BackColor="#FFFFCC" BorderColor="#CCD5F0" BorderStyle="Inset" BorderWidth="3px" Caption="Account Manager" CaptionAlign="Top" OnSelectedIndexChanging="gvUserInfoList_SelectedIndexChanging " >
+            <asp:GridView ID="gvUserInfoList" runat="server" AutoGenerateSelectButton="True" BackColor="#FFFFCC" BorderColor="#CCD5F0" BorderStyle="Inset" BorderWidth="3px" Caption="Account Manager" CaptionAlign="Top" OnSelectedIndexChanging="gvUserInfoList_SelectedIndexChanging " >
             </asp:GridView>
         </div>
     </form>
