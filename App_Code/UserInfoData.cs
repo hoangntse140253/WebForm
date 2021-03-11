@@ -100,6 +100,7 @@ namespace App_Code
                 {
                     dynamic u = new UserInfo()
                     {
+                        int a;
                         UserName = rd["Username"].ToString(),
                         Password = rd["Password"].ToString(),
                         Birthdate = DateTime.Parse(rd["Birthdate"].ToString()),
