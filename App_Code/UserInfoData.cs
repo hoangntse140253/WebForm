@@ -88,6 +88,8 @@ namespace App_Code
         {
             List<UserInfo> data = new List<UserInfo>();
             string SQL = "Select  From UserInfo";
+            string abc;
+            int a=1;
             SqlConnection cnn = new SqlConnection(strConnection);
             SqlCommand cmd = new SqlCommand(SQL, cnn);
             cnn.Open();
