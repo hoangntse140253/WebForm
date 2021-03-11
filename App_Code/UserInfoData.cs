@@ -88,8 +88,6 @@ namespace App_Code
         {
             List<UserInfo> data = new List<UserInfo>();
             string SQL = "Select  From UserInfo";
-            string abc;
-            int a=1;
             SqlConnection cnn = new SqlConnection(strConnection);
             SqlCommand cmd = new SqlCommand(SQL, cnn);
             cnn.Open();
@@ -100,7 +98,6 @@ namespace App_Code
                 {
                     dynamic u = new UserInfo()
                     {
-                        String SQL = "abc";
                         UserName = rd["Username"].ToString(),
                         Password = rd["Password"].ToString(),
                         Birthdate = DateTime.Parse(rd["Birthdate"].ToString()),
