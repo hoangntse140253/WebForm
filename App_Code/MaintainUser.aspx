@@ -1,7 +1,7 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="MaintainUser.aspx.cs" Inherits="App_Code.WebForm1" %>
 
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" > 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
 <head runat="server">
     <title></title>
 </head>
